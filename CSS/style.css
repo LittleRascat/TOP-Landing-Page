@@ -1,0 +1,146 @@
+body {
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 10px 10vw;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.first-section {
+    background-color: #1F2937;
+    padding: 80px 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30vw;
+}
+
+.main-image {
+    width: 45vw;
+    height: auto;
+}
+
+.first-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.first-button {
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+.section-heading {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.image {
+    width: 17vw;
+    height: 17vw;
+    border-radius: 10px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+.image-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 10vw;
+}
+
+.quote {
+    font-style: italic;
+    align-self: center;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.fourth-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 80px 10vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+}
+
+.action-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px;
+}
