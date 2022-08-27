@@ -9,6 +9,8 @@ header {
     background-color: #1F2937;
     padding: 10px 10vw;
     color: #F9FAF8;
+    position: fixed;
+    width: 80%;
 }
 
 a {
